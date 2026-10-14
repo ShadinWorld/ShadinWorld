@@ -1,34 +1,31 @@
-# Setup guide — Mosharof Hossain's Neon Circuit profile
+# Packet to Pixel — setup guide
 
-This profile design is original and uses a neon-circuit visual identity (cyan + violet on a dark background). It is inspired by the general idea of an animated, detailed developer profile, not copied from another person's README.
+This profile README uses an original teal / ultraviolet / amber circuit identity. It follows the *idea* of a detailed animated developer profile, but the layout, banner, wording, and content are tailored to Mosharof Hossain.
 
-## 1. Make your profile README
+## Files in this package
 
-1. Open https://github.com/new
-2. Repository name: `ShadinWorld` (it must match your CURRENT username exactly).
-3. Set visibility to **Public**.
-4. Turn **Add a README file** on.
-5. Create the repository.
-6. Upload the included `README.md` and the `assets` folder (which contains `neon-header.svg`) to the repository root. Replace the generated README if needed.
+- `README.md` — replace the contents of the profile repository's current README with this file.
+- `assets/packet-to-pixel.svg` — custom banner used at the top of the README.
+- `.github/workflows/snake.yml` — generates the contribution snake into the `output` branch.
+- `.github/workflows/profile-3d.yml` — generates the 3D contribution calendar into `profile-3d-contrib/` on the default branch.
 
-## 2. Turn on the contribution snake
+## Apply the design to the existing profile repository
 
-1. In the `ShadinWorld` repository, open **Add file → Create new file**.
-2. Enter this path as the filename: `.github/workflows/snake.yml`
-3. Paste the included workflow file and commit it to the repository's default branch.
-4. Open the repository's **Actions** tab. If prompted, enable Actions.
-5. Choose **Generate contribution snake** → **Run workflow**.
-6. After it completes successfully, a branch named `output` should appear. Reload the profile README; the snake image will then have a file to load.
+1. Open `https://github.com/ShadinWorld/ShadinWorld`.
+2. Upload/replace `README.md` and upload the `assets` folder containing `packet-to-pixel.svg`.
+3. Add the workflow files using **Add file → Create new file**. Enter each exact path:
+   - `.github/workflows/snake.yml`
+   - `.github/workflows/profile-3d.yml`
+   Copy the contents from this package's files and commit them.
+4. Open the repository's **Actions** tab. If necessary, enable Actions and make sure the repository's workflow permissions allow workflows to write to the repository.
+5. Run **Refresh 3D contribution calendar** once using **Run workflow**. When it succeeds, `profile-3d-contrib/profile-green-animate.svg` should appear in the repository.
+6. Run **Generate contribution snake** once. When it succeeds, an `output` branch should contain `github-contribution-grid-snake-dark.svg`.
+7. Reload `https://github.com/ShadinWorld` to verify the profile README. If a widget is blank immediately after setup, check that workflow has completed and try again later.
 
-If the workflow fails, check that Actions are enabled and that the repository's Actions settings permit workflows to write repository contents. Do not add a personal access token to the README.
+## Important
 
-## 3. Important checks before publishing
-
-- Confirm each project description accurately matches the code in that repository.
-- `ewu-studyhub-web` and `laptop-price-analysis` are linked using the repository names visible on your public profile.
-- Add your LinkedIn link only if you have the exact public URL. No fake link is included.
-- If you change your GitHub username later, update the username in all README image URLs and the snake workflow.
-
-## 4. About the animated widgets
-
-The typing animation, statistics cards, streak card, activity graph, and visitor counter are hosted by third-party services. Their availability and displayed numbers may vary; the widgets are decorative and are not official GitHub metrics. The contribution snake requires the GitHub Actions workflow above to generate the image.
+- This changes only the profile README and its supporting assets/workflows. It does not delete or rename your other repositories.
+- Your profile README repository name must match your current username exactly: `ShadinWorld`. If the username changes later, update the username in the widget URLs and snake workflow.
+- No personal access token needs to be created. The workflows use GitHub's automatically provided `GITHUB_TOKEN`.
+- Third-party widgets (typing SVG, stats, streak, trophies, activity graph, visitor counter) may occasionally be rate-limited or unavailable. They are decorative profile elements, not official employment or skill certifications.
+- Review all project descriptions and skill icons before committing. The wording is based on your CV and public repository descriptions, and it avoids claiming expert-level proficiency.
