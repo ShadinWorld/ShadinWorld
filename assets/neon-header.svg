@@ -1,33 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="310" viewBox="0 0 1280 310" role="img" aria-labelledby="title desc">
-  <title id="title">Mosharof Hossain — Packet to Pixel</title>
-  <desc id="desc">A custom dark neon banner connecting networking infrastructure and digital product development.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08111c"/><stop offset=".52" stop-color="#0d1117"/><stop offset="1" stop-color="#17102a"/></linearGradient>
-    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#36f9f6"/><stop offset=".53" stop-color="#8b7bff"/><stop offset="1" stop-color="#ffb86b"/></linearGradient>
-    <radialGradient id="glow"><stop offset="0" stop-color="#36f9f6" stop-opacity=".20"/><stop offset="1" stop-color="#36f9f6" stop-opacity="0"/></radialGradient>
-    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M 36 0 L 0 0 0 36" fill="none" stroke="#273344" stroke-width="1" opacity=".36"/></pattern>
-  </defs>
-  <rect width="1280" height="310" rx="20" fill="url(#bg)"/>
-  <rect width="1280" height="310" rx="20" fill="url(#grid)"/>
-  <ellipse cx="180" cy="40" rx="300" ry="220" fill="url(#glow)"/>
-  <ellipse cx="1130" cy="285" rx="320" ry="220" fill="url(#glow)" opacity=".55"/>
-  <g fill="none" stroke="url(#neon)" stroke-width="2" opacity=".74">
-    <path d="M0 68 H116 L158 110 H224"/><path d="M0 89 H78 L118 129 H172"/><path d="M1280 54 H1180 L1134 100 H1068"/><path d="M1280 80 H1214 L1166 128 H1114"/>
-    <path d="M0 240 H84 L124 200 H180"/><path d="M1280 230 H1190 L1148 188 H1080"/>
-  </g>
-  <g fill="#0d1117" stroke="#36f9f6" stroke-width="2" filter="url(#softGlow)">
-    <circle cx="224" cy="110" r="6"/><circle cx="172" cy="129" r="5"/><circle cx="1068" cy="100" r="6"/><circle cx="1114" cy="128" r="5"/>
-  </g>
-  <g fill="#a78bfa" opacity=".86"><circle cx="86" cy="167" r="2.5"/><circle cx="1170" cy="162" r="3"/><circle cx="1034" cy="58" r="2"/><circle cx="250" cy="246" r="2.5"/><circle cx="1010" cy="250" r="2.5"/></g>
-  <g text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif">
-    <text x="640" y="73" font-size="14" font-weight="700" letter-spacing="6" fill="#36f9f6">PACKET TO PIXEL</text>
-    <text x="640" y="145" font-size="48" font-weight="800" fill="#f0f6fc">MOSHAROF HOSSAIN</text>
-    <path d="M410 167 H870" stroke="url(#neon)" stroke-width="2" opacity=".95"/>
-    <text x="640" y="205" font-size="20" font-weight="600" fill="#c9d1d9">Networking · Web Technologies · Digital Products</text>
-    <text x="640" y="247" font-size="13" letter-spacing="2" fill="#8b949e">CSE STUDENT  /  EAST WEST UNIVERSITY  /  DHAKA, BANGLADESH</text>
-  </g>
-  <g fill="none" stroke-width="2" stroke-linecap="round" opacity=".8">
-    <path d="M515 279 H620" stroke="#36f9f6"/><path d="M635 279 H645" stroke="#a78bfa"/><path d="M660 279 H765" stroke="#ffb86b"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Mosharof Hossain: Networking, Web Technologies, Digital Products">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111b"/><stop offset="0.55" stop-color="#10142b"/><stop offset="1" stop-color="#201044"/></linearGradient>
+ <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#39f6e8"/><stop offset="0.55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ffbd69"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1280" height="320" rx="24" fill="url(#bg)"/>
+<g fill="none" stroke="url(#neon)" stroke-width="2" opacity=".75">
+ <path d="M0 58 H190 L232 100 H320"/><path d="M0 78 H120 L160 118 H248"/><path d="M1280 50 H1110 L1072 88 H985"/><path d="M1280 82 H1165 L1127 120 H1040"/>
+ <path d="M0 250 H165 L205 210 H280"/><path d="M1280 255 H1115 L1075 215 H1000"/>
+ <path d="M70 0 V36 L100 66"/><path d="M1210 0 V30 L1180 60"/>
+</g>
+<g fill="#39f6e8" opacity=".9"><circle cx="190" cy="58" r="4"/><circle cx="320" cy="100" r="4"/><circle cx="1110" cy="50" r="4"/><circle cx="985" cy="88" r="4"/><circle cx="165" cy="250" r="4"/><circle cx="1000" cy="215" r="4"/></g>
+<rect x="252" y="72" width="776" height="176" rx="20" fill="#090e1a" fill-opacity=".55" stroke="url(#neon)" stroke-opacity=".75"/>
+<text x="640" y="137" text-anchor="middle" fill="#edfaff" font-family="Segoe UI,Arial,sans-serif" font-size="47" font-weight="800" letter-spacing="1.1">MOSHAROF HOSSAIN</text>
+<text x="640" y="177" text-anchor="middle" fill="#39f6e8" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="2.3">NETWORKING  /  WEB TECHNOLOGIES  /  DIGITAL PRODUCTS</text>
+<path d="M430 198 H850" stroke="url(#neon)" stroke-width="2" filter="url(#glow)"/>
+<text x="640" y="224" text-anchor="middle" fill="#c3cfe0" font-family="Segoe UI,Arial,sans-serif" font-size="15">From ideas to real-world projects.</text>
+<text x="32" y="294" fill="#8495b0" font-family="Consolas,monospace" font-size="11" letter-spacing="1.6">PACKET TO PIXEL // PROFILE SYSTEM 01</text>
+<text x="1248" y="294" text-anchor="end" fill="#8495b0" font-family="Consolas,monospace" font-size="11">CYAN × VIOLET × AMBER</text>
 </svg>
