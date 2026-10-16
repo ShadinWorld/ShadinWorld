@@ -1,14 +1,15 @@
-name: Generate 3D Contribution Calendar
+name: Generate 3D contribution calendar
 
 on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 1 * * *"
   push:
     branches: [main]
     paths:
       - "README.md"
+      - "conf/github-profile-3d-contrib.json"
       - ".github/workflows/3d-contrib.yml"
-  schedule:
-    - cron: "41 1 * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -22,20 +23,25 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: Check out profile repository
+      - name: Checkout profile repository
         uses: actions/checkout@v4
-
-      - name: Generate the 3D contribution calendar
+      - name: Generate 3D contribution calendar
         uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ShadinWorld
-          MAX_REPOS: 200
-
-      - name: Publish day and night SVGs to output-3d-contrib branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: output-3d-contrib
-          publish_dir: profile-3d-contrib
-          force_orphan: true
+          MAX_REPOS: 100
+          SETTING_JSON: conf/github-profile-3d-contrib.json
+      - name: Commit generated 3D calendar images
+        run: |
+          cp profile-3d-contrib/day.svg assets/contrib-3d-day.svg
+          cp profile-3d-contrib/night.svg assets/contrib-3d-night.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contrib-3d-day.svg assets/contrib-3d-night.svg
+          if git diff --cached --quiet; then
+            echo "No 3D calendar asset changes."
+          else
+            git commit -m "chore: refresh 3D contribution calendar"
+            git push
+          fi
