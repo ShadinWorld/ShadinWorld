@@ -3,29 +3,29 @@
 <rect width="100%" height="100%" rx="22" fill="#0b111b" stroke="#263346" stroke-width="2"/>
 <path d="M24 82 H1176" stroke="url(#neon)" stroke-width="2"/>
 <text x="36" y="42" fill="#39f6e8" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="2">LANGUAGE FOOTPRINT</text>
-<text x="36" y="66" fill="#aab8ca" font-family="Segoe UI,Arial,sans-serif" font-size="13">Source bytes in owned public repositories · refreshed 2026-11-03 09:44 UTC</text>
-<rect x="42.00" y="112" width="549.79" height="18" rx="3" fill="#39f6e8"/>
-<rect x="591.79" y="112" width="309.97" height="18" rx="3" fill="#a78bfa"/>
-<rect x="901.76" y="112" width="141.24" height="18" rx="3" fill="#ffbd69"/>
-<rect x="1043.01" y="112" width="98.82" height="18" rx="3" fill="#60a5fa"/>
-<rect x="1141.83" y="112" width="9.85" height="18" rx="3" fill="#f472b6"/>
-<rect x="1151.68" y="112" width="4.33" height="18" rx="3" fill="#34d399"/>
-<rect x="1156.01" y="112" width="1.99" height="18" rx="3" fill="#f87171"/>
+<text x="36" y="66" fill="#aab8ca" font-family="Segoe UI,Arial,sans-serif" font-size="13">Source bytes in owned public repositories · refreshed 2026-11-04 09:30 UTC</text>
+<rect x="42.00" y="112" width="568.18" height="18" rx="3" fill="#39f6e8"/>
+<rect x="610.18" y="112" width="294.44" height="18" rx="3" fill="#a78bfa"/>
+<rect x="904.62" y="112" width="142.82" height="18" rx="3" fill="#ffbd69"/>
+<rect x="1047.44" y="112" width="95.20" height="18" rx="3" fill="#60a5fa"/>
+<rect x="1142.64" y="112" width="9.36" height="18" rx="3" fill="#f472b6"/>
+<rect x="1152.00" y="112" width="4.11" height="18" rx="3" fill="#34d399"/>
+<rect x="1156.11" y="112" width="1.89" height="18" rx="3" fill="#f87171"/>
 <circle cx="45" cy="161" r="5" fill="#39f6e8"/>
 <text x="59" y="165" fill="#e6edf3" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">TypeScript</text>
-<text x="59" y="183" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="11">49.3% of reported source bytes</text>
+<text x="59" y="183" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="11">50.9% of reported source bytes</text>
 <circle cx="330" cy="161" r="5" fill="#a78bfa"/>
 <text x="344" y="165" fill="#e6edf3" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Jupyter Notebook</text>
-<text x="344" y="183" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="11">27.8% of reported source bytes</text>
+<text x="344" y="183" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="11">26.4% of reported source bytes</text>
 <circle cx="615" cy="161" r="5" fill="#ffbd69"/>
 <text x="629" y="165" fill="#e6edf3" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">PLpgSQL</text>
-<text x="629" y="183" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="11">12.7% of reported source bytes</text>
+<text x="629" y="183" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="11">12.8% of reported source bytes</text>
 <circle cx="900" cy="161" r="5" fill="#60a5fa"/>
 <text x="914" y="165" fill="#e6edf3" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">JavaScript</text>
-<text x="914" y="183" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="11">8.9% of reported source bytes</text>
+<text x="914" y="183" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="11">8.5% of reported source bytes</text>
 <circle cx="45" cy="209" r="5" fill="#f472b6"/>
 <text x="59" y="213" fill="#e6edf3" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">HTML</text>
-<text x="59" y="231" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="11">0.9% of reported source bytes</text>
+<text x="59" y="231" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="11">0.8% of reported source bytes</text>
 <circle cx="330" cy="209" r="5" fill="#34d399"/>
 <text x="344" y="213" fill="#e6edf3" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Python</text>
 <text x="344" y="231" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="11">0.4% of reported source bytes</text>
